@@ -1,6 +1,4 @@
-import React from 'react';
-import { Navbar, NavbarBrand, Jumbotron } from 'reactstrap';
-
+import React, { Component } from 'react'; 
 
 
 class Main extends React.Component {
@@ -8,8 +6,11 @@ class Main extends React.Component {
         return(
             <div className='container'>
                 <div className='row'>
-                    <div className='col'>
-                        <h1>Hello World</h1>
+                    <div className='col col-sm-6' id='checklist'>
+                        <h1>DME Checklist</h1>
+                    </div>
+                    <div className='col col-sm-6'>
+                        <h1>Submitable Form</h1>
                     </div>
                 </div>
             </div>

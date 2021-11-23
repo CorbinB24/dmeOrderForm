@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+/* ADDED PROJECT CSS*/
+#checklist {
+  border-right: 6px solid green;
+  
+}
+
